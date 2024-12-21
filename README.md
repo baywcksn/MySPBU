@@ -108,6 +108,6 @@ This project is licensed under the MIT License.
 
 For any inquiries or feedback, feel free to reach out:
 
-- Email: bayuwcksn01@gmail.com
-- LinkedIn: Bayu Wicaksono
-- GitHub: @baywcksn
+- Email: [Email Me](bayuwcksn01@gmail.com)
+- LinkedIn: [Bayu Wicaksono](https://www.linkedin.com/in/bayuwicaksono14/)
+- GitHub: [@baywcksn](https://github.com/baywcksn)
