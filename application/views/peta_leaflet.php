@@ -299,7 +299,6 @@
                         `;
                     }
 
-
                     // Menambahkan Jenis SPBU
                     if (feature.properties.jenis_pom) {
                         popupContent += `
