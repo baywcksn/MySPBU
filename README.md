@@ -58,3 +58,35 @@ Follow these steps to run the project locally:
    git clone https://github.com/yourusername/myspbu.git
    cd myspbu
    ```
+
+## **Configuration**
+
+1. Place SPBU images in the `assets/foto_spbu/` directory. Ensure filenames match the `foto_spbu` property in the GeoJSON file.
+2. Update `spbu.geojson` in the `assets/` directory with your geospatial data.
+
+## **Run Locally**
+
+1. Start your local server and point it to the project directory.
+2. Access the app in your browser at `http://localhost/myspbu`.
+
+## **Usage**
+
+1. Open the interactive map to view SPBU locations.
+2. Click on markers to see detailed information, including operational hours, facilities, and photos.
+3. Use the dynamic pop-ups to explore SPBU services in a visually engaging layout.
+
+## **Preview**
+
+![MySPBU Preview](https://via.placeholder.com/1200x600?text=MySPBU+Preview)
+
+## **Contributions**
+
+Contributions are welcome! Feel free to fork the project and submit a pull request for improvements or additional features.
+
+### **To Contribute**
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/new-feature
+   ```
