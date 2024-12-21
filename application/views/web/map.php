@@ -50,7 +50,7 @@
                             </div>
                             <a href="updates.html" class="nav-item nav-link">Updates</a>
                         </div>
-                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Membership</a>
+                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Membership</a>
                     </div>
                 </nav>
             </div>
