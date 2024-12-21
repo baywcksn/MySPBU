@@ -2,7 +2,7 @@
 
 **Interactive Web Application for SPBU Mapping and Information**
 
-![MySPBU Banner](https://via.placeholder.com/1200x300?text=MySPBU)
+![alt text](https://github.com/baywcksn/MySPBU/blob/main/assets/preview-website-myspbu.png?raw=true)
 
 ## **Overview**
 
@@ -74,10 +74,6 @@ Follow these steps to run the project locally:
 1. Open the interactive map to view SPBU locations.
 2. Click on markers to see detailed information, including operational hours, facilities, and photos.
 3. Use the dynamic pop-ups to explore SPBU services in a visually engaging layout.
-
-## **Preview**
-
-![MySPBU Preview]()
 
 ## **Contributions**
 
