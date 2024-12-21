@@ -1,2 +1,60 @@
-# MySPBU
-Website ini menyediakan informasi detail mengenai pengisian bahan bakar di MySPBU, seperti lokasi terdekat, jenis bahan bakar yang tersedia, jam operasional, dan fasilitas yang ada.
+# **MySPBU**
+
+**Interactive Web Application for SPBU Mapping and Information**
+
+![MySPBU Banner](https://via.placeholder.com/1200x300?text=MySPBU)
+
+## **Overview**
+
+**MySPBU** is a modern, web-based mapping application designed to provide users with detailed and interactive information about gas stations (SPBU) in a given area. Leveraging the power of **QGIS** and **Leaflet.js**, the application delivers accurate geographical data with a user-friendly interface, enabling seamless navigation and exploration.
+
+## **Features**
+
+- **Interactive Map**: Displays SPBU locations with custom markers and pop-ups.
+- **Detailed Information**: Provides essential details, including:
+  - **SPBU Code**: Unique identifier for each station.
+  - **Address**: Full location for user convenience.
+  - **Operating Hours**: Open and close times.
+  - **Fuel Tank Capacity**: Information on tanks for motorcycles and cars.
+  - **Facilities**: Additional services like restrooms, minimarkets, etc.
+  - **Operational Status**: Indicates whether the station is active.
+  - **Photo**: Displays SPBU images for easy identification.
+- **Dynamic Pop-Ups**: Displays SPBU details in a clean, styled pop-up with responsive design.
+- **Customizable Icons**: Uses visually distinct icons to differentiate locations.
+
+## **Tech Stack**
+
+The following technologies were used to build MySPBU:
+
+### **Frontend**
+
+- **HTML5, CSS3, JavaScript**: Core web development stack for UI/UX.
+- **Leaflet.js**: For interactive map rendering and geospatial visualization.
+
+### **Backend**
+
+- **PHP**: Backend scripting for dynamic data handling.
+- **Laravel**: Framework for managing server-side logic and API integration.
+
+### **Geospatial Data**
+
+- **QGIS**: To manage, edit, and export geospatial data in GeoJSON format.
+- **GeoJSON**: Used to store and exchange geospatial data.
+
+### **Assets**
+
+- **Images and Icons**: Stored locally for SPBU photos and custom markers.
+
+## **Setup and Installation**
+
+Follow these steps to run the project locally:
+
+### **Prerequisites**
+
+1. Install PHP (>=7.4) and Composer.
+2. Set up a local server environment (e.g., XAMPP, WAMP).
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/myspbu.git
+   cd myspbu
+   ```
