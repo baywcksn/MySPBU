@@ -90,3 +90,24 @@ Contributions are welcome! Feel free to fork the project and submit a pull reque
    ```bash
    git checkout -b feature/new-feature
    ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/new-feature
+   ```
+5. Submit a pull request.
+
+## **License**
+
+This project is licensed under the MIT License.
+
+## **Contact**
+
+For any inquiries or feedback, feel free to reach out:
+
+- Email: bayuwcksn01@gmail.com
+- LinkedIn: Bayu Wicaksono
+- GitHub: @baywcksn
