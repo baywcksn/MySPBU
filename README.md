@@ -77,7 +77,7 @@ Follow these steps to run the project locally:
 
 ## **Preview**
 
-![MySPBU Preview](https://via.placeholder.com/1200x600?text=MySPBU+Preview)
+![MySPBU Preview]()
 
 ## **Contributions**
 
