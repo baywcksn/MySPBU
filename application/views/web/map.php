@@ -48,9 +48,9 @@
                             <a href="promo&event.html" class="nav-item nav-link">Promo & Event</a>
                             <div class="nav-item dropdown">
                             </div>
-                            <a href="updates.html" class="nav-item nav-link">Updates</a>
+                            <a href="updates.html" class="nav-item nav-link">Update</a>
                         </div>
-                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Membership</a>
+                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Membership</a>
                     </div>
                 </nav>
             </div>
