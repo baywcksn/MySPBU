@@ -310,13 +310,46 @@
                     `;
                     }
 
-                    // Menambahkan Alamat SPBU
+                    // Menambahkan Alamat SPBU (Nama Jalan)
                     if (feature.properties.nama_jalan) {
                         popupContent += `
                         <p style="
                             margin: 0; 
                             margin-bottom: 8px;">
-                            <strong>Alamat:</strong> ${feature.properties.nama_jalan}
+                            <strong>Jalan:</strong> ${feature.properties.nama_jalan}
+                        </p>
+                    `;
+                    }
+
+                    // Menambahkan Alamat SPBU (Nama Kelurahan)
+                    if (feature.properties.nama_kelur) {
+                        popupContent += `
+                        <p style="
+                            margin: 0; 
+                            margin-bottom: 8px;">
+                            <strong>Kelurahan:</strong> ${feature.properties.nama_kelur}
+                        </p>
+                    `;
+                    }
+
+                    // Menambahkan Alamat SPBU (Nama Kecamatan)
+                    if (feature.properties.nama_kecam) {
+                        popupContent += `
+                        <p style="
+                            margin: 0; 
+                            margin-bottom: 8px;">
+                            <strong>Kecamatan:</strong> ${feature.properties.nama_kecam}
+                        </p>
+                    `;
+                    }
+
+                    // Menambahkan Alamat SPBU (Nama Kota)
+                    if (feature.properties.nama_kota) {
+                        popupContent += `
+                        <p style="
+                            margin: 0; 
+                            margin-bottom: 8px;">
+                            <strong>Kota:</strong> ${feature.properties.nama_kota}
                         </p>
                     `;
                     }
