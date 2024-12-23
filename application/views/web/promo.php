@@ -39,6 +39,8 @@
         }
 
         header h1 {
+            color: #FFFFFF;
+            /* Ubah warna teks menjadi putih */
             font-size: 40px;
             margin-bottom: 20px;
         }
