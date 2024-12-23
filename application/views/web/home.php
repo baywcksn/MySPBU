@@ -42,7 +42,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
-                            <a href="<?php echo site_url('/'); ?>" class="nav-item nav-link">Home</a>
+                            <a href="<?php echo site_url('/'); ?>" class="nav-item nav-link active">Home</a>
                             <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link">Map</a>
                             <a href="<?php echo site_url('web/benefit'); ?>" class="nav-item nav-link">Benefit</a>
                             <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link">Promo</a>
