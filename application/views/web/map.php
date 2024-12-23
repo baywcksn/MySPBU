@@ -43,10 +43,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
                             <a href="<?php echo site_url('/'); ?>" class="nav-item nav-link">Home</a>
-                            <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link active">Map</a>
-                            <a href="<?php echo site_url('web/benefit'); ?>"
-                                class="nav-item nav-link active">Benefit</a>
-                            <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link active">Promo</a>
+                            <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link">Map</a>
+                            <a href="<?php echo site_url('web/benefit'); ?>" class="nav-item nav-link">Benefit</a>
+                            <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link">Promo</a>
                         </div>
                     </div>
                     <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Membership</a>

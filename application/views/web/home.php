@@ -43,10 +43,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
                             <a href="<?php echo site_url('/'); ?>" class="nav-item nav-link">Home</a>
-                            <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link active">Map</a>
-                            <a href="<?php echo site_url('web/benefit'); ?>"
-                                class="nav-item nav-link active">Benefit</a>
-                            <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link active">Promo</a>
+                            <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link">Map</a>
+                            <a href="<?php echo site_url('web/benefit'); ?>" class="nav-item nav-link">Benefit</a>
+                            <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link">Promo</a>
                             <div class="nav-item dropdown">
                             </div>
                         </div>
@@ -62,11 +61,6 @@
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 mb-5">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#header-carousel" data-slide-to="1"></li>
-                <li data-target="#header-carousel" data-slide-to="2"></li>
-            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="min-height: 300px;">
                     <img class="position-relative w-100" src="<?= base_url() ?>assets\images\animasi_spbu.jpg"
