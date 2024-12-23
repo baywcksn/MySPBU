@@ -47,13 +47,14 @@
                             <a href="<?php echo site_url('web/benefit'); ?>"
                                 class="nav-item nav-link active">Benefit</a>
                             <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link active">Promo</a>
+                            <div class="nav-item dropdown">
+                            </div>
                         </div>
+                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Membership</a>
                     </div>
-                    <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Membership</a>
+                </nav>
             </div>
-            </nav>
         </div>
-    </div>
     </div>
     <!-- Navbar End -->
 

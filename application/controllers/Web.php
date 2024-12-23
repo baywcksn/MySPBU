@@ -29,14 +29,14 @@ class Web extends CI_Controller
 		$this->load->view('web/map');
 	}
 
-	public function blog()
+	public function benefit()
 	{
-		$this->load->view('web/blog');
+		$this->load->view('web/benefit');
 	}
 
-	public function contact()
+	public function promo()
 	{
-		$this->load->view('web/contact');
+		$this->load->view('web/promo');
 	}
 
 	public function course()
