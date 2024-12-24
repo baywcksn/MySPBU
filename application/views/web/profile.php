@@ -152,7 +152,7 @@
 
     <div class="content">
         <div class="profile">
-            <img src="https://via.placeholder.com/100" alt="Bayu Wicasono">
+            <img class="img-fluid mb-4 mb-lg-0" src="<?= base_url() ?>assets\bayuwicaksono.jpg" alt="">
             <div>
                 <strong>Bayu Wicasono</strong><br>
                 Manager Co-Founder of <strong>MySPBU</strong>
