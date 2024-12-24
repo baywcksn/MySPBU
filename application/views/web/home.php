@@ -46,6 +46,8 @@
                             <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link">Map</a>
                             <a href="<?php echo site_url('web/benefit'); ?>" class="nav-item nav-link">Benefit</a>
                             <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link">Promo</a>
+                            <a href="<?php echo site_url('web/aboutus'); ?>" class="nav-item nav-link">About Us</a>
+                            <a href="<?php echo site_url('web/profile'); ?>" class="nav-item nav-link">Profile</a>
                             <div class="nav-item dropdown">
                             </div>
                         </div>

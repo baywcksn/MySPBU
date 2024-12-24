@@ -46,6 +46,9 @@
                             <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link active">Map</a>
                             <a href="<?php echo site_url('web/benefit'); ?>" class="nav-item nav-link">Benefit</a>
                             <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link">Promo</a>
+                            <a href="<?php echo site_url('web/aboutus'); ?>" class="nav-item nav-link">About
+                                Us</a>
+                            <a href="<?php echo site_url('web/profile'); ?>" class="nav-item nav-link">Profile</a>
                         </div>
                     </div>
                     <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Membership</a>
@@ -60,34 +63,6 @@
     <!-- Map -->
     <iframe src="<?= base_url() ?>/home" style="width: 100%; height: 100vh; border: none;"></iframe>
     <!-- Map End-->
-
-    <!-- About Us -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="<?= base_url() ?>assets\logo\logo_myspbu.jpg"
-                        alt="Image">
-                </div>
-                <div class="col-lg-7">
-                    <div class="text-left mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
-                        <h1>My SPBU</h1>
-                    </div>
-                    <p class="text-justify"> Di My SPBU, kami percaya bahwa perjalanan Anda harus berjalan lancar tanpa
-                        hambatan. Sebagai
-                        platform pencarian SPBU yang inovatif, kami hadir untuk memberikan kemudahan bagi pengendara
-                        kendaraan bermotor di seluruh Indonesia.
-                        Tujuan kami adalah menjadi panduan andal bagi Anda dalam menemukan lokasi SPBU terbaik yang
-                        sesuai dengan kebutuhan Anda. Dengan menyediakan informasi akurat, detail fasilitas, dan panduan
-                        rute yang praktis, kami membantu memastikan bahwa setiap perjalanan Anda lebih nyaman dan bebas
-                        khawatir.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About Us End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">

@@ -39,8 +39,13 @@ class Web extends CI_Controller
 		$this->load->view('web/promo');
 	}
 
-	public function course()
+	public function aboutus()
 	{
-		$this->load->view('web/course');
+		$this->load->view('web/aboutus');
+	}
+
+	public function profile()
+	{
+		$this->load->view('web/profile');
 	}
 }

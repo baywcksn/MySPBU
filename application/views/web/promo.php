@@ -168,6 +168,9 @@
                             <a href="<?php echo site_url('web/map'); ?>" class="nav-item nav-link">Map</a>
                             <a href="<?php echo site_url('web/benefit'); ?>" class="nav-item nav-link">Benefit</a>
                             <a href="<?php echo site_url('web/promo'); ?>" class="nav-item nav-link active">Promo</a>
+                            <a href="<?php echo site_url('web/aboutus'); ?>" class="nav-item nav-link">About
+                                Us</a>
+                            <a href="<?php echo site_url('web/profile'); ?>" class="nav-item nav-link">Profile</a>
                         </div>
                         <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Membership</a>
                     </div>

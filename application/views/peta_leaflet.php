@@ -2,10 +2,6 @@
     <div id="map" style="width: 100%; height: 600px; color:black;"></div>
 </div>
 <script>
-    var prov = new L.LayerGroup();
-    var faskes = new L.LayerGroup();
-    var sungai = new L.LayerGroup();
-    var provin = new L.LayerGroup();
     var spbu = new L.LayerGroup();
     var kot = new L.LayerGroup();
     var kec = new L.LayerGroup();
@@ -47,16 +43,12 @@
 
     var groupedOverlays = {
         "Peta Dasar": {
-            'Ibu Kota Provinsi': prov,
-            'Jaringan Sungai': sungai,
-            'Wilayah Provinsi': provin,
             'Kota': kot,
             'Kecamatan': kec,
             'Kelurahan': kel,
         },
         "Peta Khusus": {
             'Pom Bensin': spbu,
-            'Fasilitas Kesehatan': faskes,
         },
     };
 
@@ -260,8 +252,8 @@
 
     $.getJSON("<?= base_url() ?>assets/myspbu.geojson", function (data) {
         var ratIcon = L.icon({
-            iconUrl: '<?= base_url() ?>assets/9-Marker.png',
-            iconSize: [45, 55]
+            iconUrl: '<?= base_url() ?>assets/gas.png',
+            iconSize: [20, 30]
         });
 
         L.geoJson(data, {
@@ -465,7 +457,7 @@
                 return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .6 };
             },
             onEachFeature: function (feature, layer) {
-                layer.bindPopup(feature.properties.kot)
+                layer.bindPopup(feature.properties.WADMKK)
             }
         }).addTo(kot);
     });
@@ -486,7 +478,7 @@
                 return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .6 };
             },
             onEachFeature: function (feature, layer) {
-                layer.bindPopup(feature.properties.kec)
+                layer.bindPopup(feature.properties.WADMKC)
             }
         }).addTo(kec);
     });
