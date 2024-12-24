@@ -502,6 +502,9 @@
                     weight: 1,        // Ketebalan garis
                     color: '#000'     // Warna garis border
                 };
+            },
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup(feature.properties.NAMOBJ)
             }
         }).addTo(kel);
     });
