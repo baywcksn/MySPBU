@@ -2,7 +2,7 @@
 
 **Interactive Web Application for SPBU Mapping and Information**
 
-![image](https://github.com/user-attachments/assets/969f32ca-4801-40a7-be17-42bd5f4d1b70)
+![image](https://github.com/user-attachments/assets/ebaa4790-a280-4f05-a305-caf21c261b8f)
 
 ## **Overview**
 
