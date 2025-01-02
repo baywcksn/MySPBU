@@ -55,7 +55,7 @@ Follow these steps to run the project locally:
 2. Set up a local server environment (e.g., XAMPP, WAMP).
 3. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/myspbu.git
+   git clone https://github.com/baywcksn/myspbu.git
    cd myspbu
    ```
 
